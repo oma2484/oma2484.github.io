@@ -1,9 +1,27 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdoptaMatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <h1>AdoptaMatch</h1>
+  <div id="card-container">
+    <div id="animal-card" class="card">
+      <img id="animal-img" src="" alt="Animal" />
+      <h2 id="animal-name"></h2>
+      <p id="animal-info"></p>
+    </div>
+    <div id="actions">
+      <button id="no-btn">❌</button>
+      <button id="yes-btn">❤️</button>
+    </div>
+  </div>
+  <div id="end-message" class="hidden">
+    <p>No hay más animales por mostrar.</p>
+  </div>
+  <script src="script.js"></script>
 </body>
- 
 </html>
